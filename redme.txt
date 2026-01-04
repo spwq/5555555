@@ -1,0 +1,14 @@
+# Telethon Userbot
+
+بوت Telethon بسيط يقوم بنقل الفيديوهات من Saved Messages
+إلى مجموعة أو قناة.
+
+## Environment Variables
+- API_ID
+- API_HASH
+- GROUP_LINK
+
+## Run
+```bash
+pip install -r requirements.txt
+python bot.py
