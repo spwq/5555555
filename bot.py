@@ -5,7 +5,7 @@ import asyncio
 
 api_id = int(os.getenv("API_ID", "0"))
 api_hash = os.getenv("API_HASH", "API_HASH_HERE")
-session_string = os.getenv("SESSION", "1AZWarzUBu3Z0d464gS18oNceuOOlkhlk1vzriNa2YM5ysEswEgu01cGjA4Utz-0A7M_PLunnyfJJuG1aACJeyyanEAHRk_NWMLpAWvp93ouLdQjsD5MWMY3XHy8RLCXVmP91iRZMPRkOGDRDwyQWJCFJx43MiLVzRc1nhPTHQFZe4EJipqi9oq1kz-4K9I1HWOqqkWp4X7q47EqgmyESPz_JoHfHLCv3-OAikHlGJN0h75OzNs2ngMDPtDofXpaK2LeGMZ05wCxhNS5bpKjsKoKdz6TXzZqTUZ6C32Zso1kBjDAGJ23j_vkk2-bhkgb1jL_0Eyxk7hmDObnHLCHDCo0jhBX4hL8=")
+session_string = os.getenv("SESSION", "1AZWarzUBu24n6ckue23T8na_t7z5nWOWtFA730NIXE2aZsdwgfw5LtWFZP3UK-p7FNukcwZXY5cbMZHuVlRJBbGI2SrjBGkh8UN3B020-07mHPzEBBDvPKrgaCOkrWpXCDGvsw3h5JqPUguOj8GmXFJ_l3ekwBu8j2dQou7LtwkSc8k7aQ1k5V6nSz6L33apSb62cpBa1_Ixye1646MzK-1svz4KyRIiV3GSvTTQ1gGb4x3OmTP25fhBKmdAwct5z3KsCxahcmLNp-si9A-LwVntmgK6ZjNCyXOzLykgdxkwRPm_TRRNikEr12lKX1nNYEFKDXN2yxZcXbs6m1vKYcxxbsSwDxE=")
 group_link = os.getenv("GROUP_LINK", "")
 
 if not api_id or not api_hash or not session_string or not group_link:
@@ -48,3 +48,4 @@ else:
                 await asyncio.sleep(15)
 
     client.loop.run_until_complete(main())
+
